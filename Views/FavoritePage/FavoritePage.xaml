@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BoredApp.Views.FavoritePage" Appearing="FavoritePage_OnAppearing">
+    <ContentPage.Content>
+        <VerticalStackLayout x:Name="StackLayout">
+            <Label Text="Поиск по типу"></Label>
+            <Entry x:Name="Search" TextChanged="Search_OnTextChanged"></Entry>
+        </VerticalStackLayout>
+    </ContentPage.Content>
+</ContentPage>
