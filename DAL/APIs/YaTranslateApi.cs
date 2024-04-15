@@ -37,7 +37,7 @@ public class YaTranslateApi : IYaTranslateApi
     private void AddHeaders()
     {
         client.DefaultRequestHeaders.Add("Accept", "application/json");
-        client.DefaultRequestHeaders.Add("Authorization", $"Api-Key AQVN0lFgHt6B-fjjMFGiPpqdD5yJzsHxMFEzZ8h4");
+        client.DefaultRequestHeaders.Add("Authorization", $"Api-Key");
     }
     
     public async Task<string> TranslateAsync(string originalText)
